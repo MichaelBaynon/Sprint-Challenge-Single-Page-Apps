@@ -8,6 +8,9 @@ import axios from 'axios';
 export default function App() {
   
 const [title, setTitle] = useState('')
+const [status, setStatus] = useState('')
+const [species, setSpecies] = useState('')
+
 
   axios.get('https://rickandmortyapi.com/api/character')
 .then(res => {
@@ -20,6 +23,6 @@ const [title, setTitle] = useState('')
     <Header />
     <TabNav />
     <AppRouter />
-    <CharacterList title={title} status='alive' species='human'/>
+    
   </main>
 }

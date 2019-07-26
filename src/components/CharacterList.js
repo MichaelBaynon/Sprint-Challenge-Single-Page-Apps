@@ -25,9 +25,14 @@ export default function CharacterList(props) {
   return (
   <section className='character-list grid-view'>
 
-<h1>{props.name}</h1>
-<h3>{props.status}</h3>
-<h3>{props.species}</h3>
+{card.map(card => (
+          
+            <CharacterCard key={card.id}{...card}/>
+          )
+         
+          
+
+         )}
 
     </section>
   )

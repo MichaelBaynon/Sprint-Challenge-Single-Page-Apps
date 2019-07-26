@@ -49,3 +49,7 @@ header h1 {
   flex-direction: column;
 
 }
+
+.characterIMG {
+  border-radius: 10px;
+}

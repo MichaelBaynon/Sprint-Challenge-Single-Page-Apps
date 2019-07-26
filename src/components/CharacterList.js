@@ -3,7 +3,7 @@ import axios from 'axios'
 import CharacterCard from './CharacterCard'
 
 export default function CharacterList(props) {
-  console.log('props:', props)
+  
   // TODO: Add useState to track data from useEffect
 
   const [card, setCard] =useState([])

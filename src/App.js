@@ -14,7 +14,7 @@ const [species, setSpecies] = useState('')
 
   axios.get('https://rickandmortyapi.com/api/character')
 .then(res => {
-  console.log('APP axios request', res.data.results)
+ 
   setTitle(res.data.results.name)
 })
 

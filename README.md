@@ -1,4 +1,4 @@
-# Sprint Challenge: Single Page Applications - Rick & Morty
+﻿# Sprint Challenge: Single Page Applications - Rick & Morty
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Single Page Applications, React Router I - II, React Forms, and Hooks.
 
@@ -136,4 +136,6 @@ There's a range of difficulty included. 😈
 If the [main API service](https://rickandmortyapi.com/documentation) goes down, or you exceed rate limits, you can try the following backup URL:
 
 **Backup URL:** https://rick-and-morty-learning-api.herokuapp.com/api/
+
+:)
 

@@ -1,5 +1,12 @@
 import React from 'react'
 
-export default function CharacterCard ({ /* add props */ }) {
-  return (<span>todo: location</span>
+export default function CharacterCard ({ name, status, species, image }) {
+  return (
+    <div className='characterCard'>
+      <h1>{name}</h1>
+      <img className='characterIMG' src={image} />
+      <h3>Status: {status}</h3>
+      <h3>Species: {species}</h3>
+    </div>
+  )
 }

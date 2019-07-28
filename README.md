@@ -1,4 +1,4 @@
-# Sprint Challenge: Single Page Applications - Rick & Morty
+﻿# Sprint Challenge: Single Page Applications - Rick & Morty
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Single Page Applications, React Router I - II, React Forms, and Hooks.
 
@@ -25,13 +25,16 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 - [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
+> Answer: Client side routing takes the load off the server and trades off initial load time for fast loading between pages on the site
+
 - [ ] What does AJAX stand for?
-> Answer:
+> Answer: AJAX is web development techniques used to create asynchronous web apps
+
 - [ ] What are `controlled components` in React?
-> Answer:
+> Answer: components that handle form data  where as an uncontrolled components allows data to be handled by the DOM
+
 - [ ] Name three tools/libraries for making AJAX requests.
-> Answer:
+> Answer:  Fetch API, axios, and jQuery
 
 
 ## Project Set Up
@@ -136,4 +139,6 @@ There's a range of difficulty included. 😈
 If the [main API service](https://rickandmortyapi.com/documentation) goes down, or you exceed rate limits, you can try the following backup URL:
 
 **Backup URL:** https://rick-and-morty-learning-api.herokuapp.com/api/
+
+:)
 
